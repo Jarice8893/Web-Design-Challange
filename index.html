@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+  <body>
+      <script type="text/javascript" src="js/lib/jquery-2.2.0.min.js"></script>
+      <script type="text/javascript" src="js/functions.js"></script>
+  </body>
+    <head>
+      <title>Ladtitude Analysis</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+      <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+    <div class="jumbotron text-center" style="margin-bottom:0">
+      <h1>Latitude Analysis Dashboard</h1>
+    </div>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container">
+          <a class="navbar-brand text-black" href="index.html" >Latitude</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ml-auto">    
+                  <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          Plots
+                      </a>
+                      <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item" href="temp.html">Max Temperature</a>
+                          <a class="dropdown-item" href="humidity.html">Humidity</a>
+                          <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
+                          <a class="dropdown-item" href="windspeed.html">Wind Speed</a>
+                      </div>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="comparisons.html">Comparison</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="data.html">Data</a>
+                  </li>
+              </ul>
+          </div>
+      </div>
+  </nav>
+      </div>
+      <div class="text-center">
+          <h2>Latitude Vs. X</h2>
+        
+          <img src="C:/Users/jmarshall.000/Desktop/nu-chi-data-pt-04-2021-u-c/Web-Design-Challange/set-spheres-globe-earth-grid-260nw-619414403.jpg" alt="weather" width="500" height="200">
+          <p>The purpose of this project was to analyze how weather changes as you get closer to the equator. To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities. Below are different clickable Plots regarding Latitute Vs Max Temperature, Wind Speed, Humidity or Cloudiness. Per plot is a brief summary explaining what each of them mean. If wanting to dive in deeper, above is Comparison of the plots and a dataframe of the 500 cities used in this experiment.</p>
+          <br>
+        </div>
+          <div class="text-center">
+            <h2>Visualizations</h2>
+          </div>
+          <hr>
+          <div class="row">
+              <div class="col-3 col-md-6">
+                  <a href="temps.html"><img src="C:/Users/jmarshall.000/Desktop/nu-chi-data-pt-04-2021-u-c/Web-Design-Challange/Fig1.png" width="800"  alt="temperature">
+                  </a> 
+              </div>
+              <div class="col-3 col-md-6">
+                  <a href="humidity.html"><img src="C:/Users/jmarshall.000/Desktop/nu-chi-data-pt-04-2021-u-c/Web-Design-Challange/Fig2.png" width="800" alt="humidity"></a>
+              </div>
+         
+              <div class="col-3 col-md-6">
+                  <a href="cloudiness.html"><img src="C:/Users/jmarshall.000/Desktop/nu-chi-data-pt-04-2021-u-c/Web-Design-Challange/Fig3.png" width="800"  alt="cloudiness"></a>
+              </div>
+
+              <div class="col-3 col-md-6">
+                  <a href="windspeed.html"><img src="C:/Users/jmarshall.000/Desktop/nu-chi-data-pt-04-2021-u-c/Web-Design-Challange/Fig4.png"width="800"  alt="wind speed"></a>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+</div>
+</div>
+
+    
+    <div class="jumbotron text-center" style="margin-bottom:0">
+      <p>@ Copyright BJ Marshall Productions</p>
+    </div>
+    
+    </body>
+    </html>
+    

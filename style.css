@@ -1,0 +1,81 @@
+
+a.navbar-brand{
+    margin-left: 10px;
+    padding: 10px;
+    background-color: rgb(113, 114, 161);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+
+
+h1{
+    color: rgb(0, 0, 0);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 15px;
+    background-color: rgb(113, 114, 161);
+}
+
+h3{
+    color: rgb(86, 95, 128);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 15px;
+}
+
+
+p{
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: large;
+   padding:10px;
+}
+
+
+body{
+    background-color: rgb(255, 255, 255);
+}
+.col-md-12{
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom:40px;
+}
+
+
+.navbar{
+    padding-top:0px;
+    padding-bottom: 0px;
+    padding-right:40px;
+    background-color: rgb(113, 114, 161);
+}
+
+.nav-item.dropdown.show {
+    background-color: rgb(113, 114, 161);
+}
+
+.dropdown-menu {
+    margin: 0;
+}
+
+
+.content {
+    padding-top: 50px;
+    padding-bottom: 80px;
+    overflow: hidden;
+}
+
+.content.bg-white {
+    margin-top: 15px;
+}
+
+
+/* small screen adjustments*/
+@media(max-width:767px){
+    .navbar.bg-light{
+        background-color: rgb(113, 114, 161)!important;    
+    }
+
+    .navbar-collapse{
+        background-color: rgb(113, 114, 161);
+    }
+    .navbar{
+        padding:inherit;
+    }
+}
